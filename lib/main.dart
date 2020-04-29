@@ -5,15 +5,14 @@ void main() {
       home: Scaffold(
     backgroundColor: Colors.white,
     appBar: AppBar(
-      title: Text("Burrda"),
+      title: Text("App Bar"),
       backgroundColor: Colors.indigoAccent,
     ),
     body: Center(
       child: Padding(
         padding: const EdgeInsets.all(8.0),
         child: Image(
-          image: NetworkImage(
-              'https://scitechdaily.com/images/Neptune-Planet-Illustration.jpg'),
+         image: AssetImage('images/planet.jpg')
         ),
       ),
     ),
